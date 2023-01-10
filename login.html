@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Login Form</title>
+    <script
+      src="https://kit.fontawesome.com/d865c0bc4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 10px 30px;
+      }
+      .flex-1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+      .flex-1 input {
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 1.5em;
+      }
+      .flex-1 input[type="submit"] {
+        background-color: goldenrod;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+        color: whitesmoke;
+      }
+      .login-back {
+        display: flex;
+        justify-content: center;
+        margin-top: 30vh;
+      }
+
+      nav a {
+        text-decoration: none;
+        margin-right: 10px;
+        color: black;
+        font-weight: 400;
+      }
+      .nav-flex {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-flex">
+        <span>
+          <a href="#">Home</a>
+          <a href="#">Dashboard</a>
+          <a href="#">Inventory</a>
+        </span>
+        <span>
+          <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+          <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </span>
+      </nav>
+    </header>
+    <section class="login-back">
+      <div class="flex-1">
+        <h1>Please Login</h1>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your Email"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Your Password"
+          required
+        />
+        <input type="submit" id="submit" value="Login" />
+      </div>
+    </section>
+  </body>
+</html>

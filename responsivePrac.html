@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practicing Responsive</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 30px;
+        column-gap: 30px;
+      }
+      .food {
+        border: 2px solid grey;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      img:hover {
+        transform: scale(1.1);
+        transition: transform 1s ease;
+      }
+
+      @media screen and (max-width: 576px) {
+        .container {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+
+      @media screen and (min-width: 577px) and (max-width: 992px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media screen and (min-width: 993px) and (max-width: 1500px) {
+        .container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-1</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+          magni modi vitae veritatis quod aperiam. Aspernatur repellendus
+          nesciunt placeat id veniam nemo asperiores dolorem rerum adipisci.
+          Placeat, vel magni dicta cupiditate ratione obcaecati iure veniam modi
+          necessitatibus! Molestiae, quisquam iure.
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-2</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Necessitatibus doloremque rerum aspernatur non temporibus quaerat
+          explicabo! Exercitationem nobis accusantium corporis laborum eveniet
+          eos? Vero, quo, veniam magni harum ducimus voluptates eos hic porro
+          quibusdam molestiae vel corrupti repellendus numquam! Reprehenderit!0
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          voluptatem aspernatur blanditiis dolores, quibusdam ipsa, non vitae,
+          corporis sunt libero veniam dicta molestias earum quas incidunt
+          impedit! Cumque ab, alias aperiam ipsum ut veritatis earum pariatur
+          suscipit laboriosam in fugit!
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-4</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          eligendi quas suscipit aliquam mollitia sit provident consequatur
+          quos, numquam in optio, ipsam ab dolore a vel blanditiis laboriosam
+          sunt ut! Atque minima a, sunt in unde nulla deserunt accusantium
+          nobis.
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-5</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia enim,
+          repellendus ipsam ab molestiae provident voluptas aliquid quisquam
+          dicta nihil facere impedit quas repudiandae maiores magnam sit minima
+          minus amet vel velit. Sequi, iusto temporibus voluptate quaerat nisi
+          aliquid laudantium?
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-6</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+          magnam molestias corrupti odit quos accusamus qui, similique autem
+          voluptatem sit amet quo commodi voluptas sunt quis deleniti ipsa
+          veritatis, cum obcaecati impedit numquam quidem delectus aspernatur
+          officia? Ea, tempore iste?
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-7</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          iusto quam ipsam tempora! Quos vitae illum fugiat libero, minus et
+          accusamus earum eum laboriosam illo veritatis nam animi expedita ad,
+          nobis molestiae ducimus at natus! Ad ea ducimus labore voluptatibus?
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-8</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          dolore fuga atque iusto earum alias expedita eveniet omnis
+          exercitationem. Perferendis sunt quaerat, voluptas id non quibusdam
+          voluptate ad earum porro distinctio quasi, vitae nemo cumque impedit
+          nam alias aperiam architecto.
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-9</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+          fugit, laborum reprehenderit, quasi, architecto exercitationem
+          expedita in veniam dolore rem accusantium quaerat vitae officiis
+          ullam. Inventore iusto facere obcaecati distinctio placeat? Quasi
+          itaque, eaque iusto corrupti assumenda cupiditate earum placeat.
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-10</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+          voluptate accusamus labore sit explicabo, harum quia ab ullam cum
+          dignissimos tempora sint, asperiores itaque neque quo voluptatum
+          delectus veniam beatae libero iusto provident. Sunt nulla officiis
+          earum labore, corporis voluptatibus.
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-11</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+          consectetur alias optio numquam quod voluptates rem dolore quis
+          distinctio vero, asperiores itaque praesentium deleniti quas officia.
+          Recusandae voluptatum blanditiis numquam expedita praesentium, eius
+          ad, nisi rem veritatis ducimus corporis exercitationem!
+        </p>
+      </div>
+      <div class="food">
+        <img src="images.jfif" alt="" />
+        <h2>Iteam-12</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quasi,
+          ex recusandae ea excepturi illo magnam optio tempore consectetur cum
+          quam suscipit quibusdam sit, in eligendi facilis deleniti nemo fuga
+          molestias quos molestiae. Qui exercitationem placeat aut nostrum
+          eveniet nulla.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
